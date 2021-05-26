@@ -1,0 +1,50 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="/socket.io/socket.io.js"></script>
+    <script async defer src="client.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>SOCKET HAS BEEN CREATED ONLY WHEN THE IO() IS CALLED</h1>
+    <p>
+        make the app put in the port and make it active and reponsive or make it listen which will be done by running the serverjs
+        first things is you have to request to the server to get your html file and the page is loaded on google browser
+        whenever i call-- io() -- what it does is it will create a socket or a pipeline between the server and the client.
+        when this happen connection is automatically on between the server and the client because of the socket.
+        when the connection is on io is on and so the io dot on event occur like function.     
+
+    </p>
+
+    <div>
+        SOCKET ID= <span id="socketId"></span>
+    </div>
+    <br>
+    <select id="selectedcolor">
+        <option>red</option>
+        <option>blue</option>
+        <option>green</option>
+        <option>yellow</option>
+        <option>cyan</option>
+        <option>magenta</option>
+    </select>
+
+    <button id="colorit">COLOR IT NOW</button>
+
+    <div class="container">
+        <div class="colorbox red"></div>
+        <div class="colorbox blue"></div>
+        <div class="colorbox green"></div>
+        <div class="colorbox yellow"></div>
+        <div class="colorbox cyan"></div>
+        <div class="colorbox magenta"></div>
+    </div>
+    
+</body>
+</html>

@@ -1,0 +1,15 @@
+
+
+.container {
+    padding:20px ;
+    display: flex;
+}
+
+
+.colorbox {
+    
+    height:80px;
+    width: 80px;
+    margin: 20px;
+    border: dotted black 2px;
+}
